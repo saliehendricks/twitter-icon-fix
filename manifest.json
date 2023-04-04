@@ -8,8 +8,6 @@
     "js": ["content.js"]
   }],
   "action": {
-    "default_popup": "twitterFix.html",
-    "default_icon": "swan.svg" 
-  },
-  "permissions" :  ["storage", "declarativeContent", "activeTab", "scripting"]
+    "default_popup": "twitterFix.html"
+  }
 }
