@@ -1,1 +1,1 @@
-Fix the stupid twitter icon.
+Chrome extension to replace the twitter icon with a majestic Swan icon.
