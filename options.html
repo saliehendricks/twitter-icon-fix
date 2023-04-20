@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Logo Updater Options</title>
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #f5f5f5;
+        margin: 0;
+        padding: 0;
+        min-width: 250px;
+      }
+
+      h1 {
+        background-color: #00305e;
+        color: #ffffff;
+        padding: 16px;
+        margin: 0;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        max-width: 300px;
+        margin: 16px auto;
+        background-color: #ffffff;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      label {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 8px;
+      }
+
+      select {
+        font-size: 14px;
+        padding: 6px 12px;
+        border: 1px solid #c4c4c4;
+        border-radius: 4px;
+        margin-bottom: 16px;
+      }
+
+      button {
+        font-size: 14px;
+        font-weight: 500;
+        color: #ffffff;
+        background-color: #00305e;
+        padding: 6px 12px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+      }
+
+      button:hover {
+        background-color: #00305e;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Fix Twitter Logo</h1>
+    <form>
+      <label for="logo-selection">Choose the logo to replace:</label>
+      <select id="logo-selection">
+        <option value="swan">Swan</option>
+        <option value="bitcoin">Bitcoin</option>
+      </select>
+      <button id="save-options">Save</button>
+    </form>
+    <script src="options.js"></script>
+  </body>
+</html>
